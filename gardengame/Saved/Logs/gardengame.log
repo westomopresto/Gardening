@@ -7973,3 +7973,4 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2019.10.05-07.15.34:106][423]SourceControl:  create mode 100644 gardengame/Content/sounds/harvest.uasset
 [2019.10.05-07.15.34:106][423]SourceControl:  create mode 100644 gardengame/Content/sounds/plant.uasset
 [2019.10.05-07.15.34:113][423]SourceControl: Commited [master 8cf8251] new sound effects and color coordination for errors.
+[2019.10.05-07.16.24:975][805]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.848 sec). This should never happen. Something is wrong with the timer delegate!
