@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: robot_0.ma
-//Last modified: Sat, Oct 05, 2019 01:29:43 AM
+//Last modified: Sat, Oct 05, 2019 01:53:37 AM
 //Codeset: 1252
 requires maya "2019";
 requires -nodeType "HIKSolverNode" -nodeType "HIKCharacterNode" -nodeType "HIKSkeletonGeneratorNode"
@@ -19,13 +19,13 @@ fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 18362)\n";
 createNode transform -s -n "persp";
 	rename -uid "AD434ACA-4D52-47FB-CA25-7FAD60EBBCFB";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -351.32450716144541 68.63566967293751 -126.91152502318636 ;
-	setAttr ".r" -type "double3" -6.3383527216553492 -1190.1999999998591 0 ;
+	setAttr ".t" -type "double3" -262.68303662209166 35.360326960853428 246.2495569119958 ;
+	setAttr ".r" -type "double3" -1.5383527216518056 -1128.9999999998324 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "9CB6BF08-4F7C-09C0-2ACD-649BA81F1171";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 390.12831573655933;
+	setAttr ".coi" 364.84551765027447;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
