@@ -7974,3 +7974,15 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2019.10.05-07.15.34:106][423]SourceControl:  create mode 100644 gardengame/Content/sounds/plant.uasset
 [2019.10.05-07.15.34:113][423]SourceControl: Commited [master 8cf8251] new sound effects and color coordination for errors.
 [2019.10.05-07.16.24:975][805]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.848 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.10.05-07.22.45:349][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.10.05-07.22.47:672][325]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.05-07.22.47:777][325]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.10.05-07.22.47:966][325]LogSavePackage: Moving 'C:/Users/Westo/Documents/GitHub/Gardening/gardengame/Saved/ThirdPersonExampleMap656BBCF84AFDFADCEB92E892CAAA55CE.tmp' to 'C:/Users/Westo/Documents/GitHub/Gardening/gardengame/Content/Maps/ThirdPersonExampleMap.umap'
+[2019.10.05-07.22.48:057][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThirdPersonExampleMap_BuiltData" FILE="C:/Users/Westo/Documents/GitHub/Gardening/gardengame/Content/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2019.10.05-07.22.48:096][325]LogSavePackage: Moving 'C:/Users/Westo/Documents/GitHub/Gardening/gardengame/Saved/ThirdPersonExampleMap_BuiltData9EBE9F8C453FCDA0CC0D7DA74FD214D9.tmp' to 'C:/Users/Westo/Documents/GitHub/Gardening/gardengame/Content/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.10.05-07.22.49:849][481]SourceControl: fatal: D:/Program Files (x86)/Epic Games/UE_4.22/Engine/Content: 'D:/Program Files (x86)/Epic Games/UE_4.22/Engine/Content' is outside repository
+[2019.10.05-07.22.51:483][481]LogSlate: Window 'Submit Files' being destroyed
+[2019.10.05-07.22.52:170][481]LogSourceControl: commit successful: [master 62cd14b] test
+[2019.10.05-07.22.52:218][481]SourceControl: [master 62cd14b] test
+[2019.10.05-07.22.52:218][481]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2019.10.05-07.22.52:224][481]SourceControl: Commited [master 62cd14b] test.
