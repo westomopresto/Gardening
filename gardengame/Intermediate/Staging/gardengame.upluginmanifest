@@ -498,35 +498,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Experimental/BackChannel/BackChannel.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1",
-				"FriendlyName": "BackChannel",
-				"Description": "BackChannel is an experimetal plugin that allows external tools and apps to query for and push data into a running Unreal session.",
-				"Category": "Experimental",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "BackChannel",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "Default",
-						"BlacklistPlatforms": [
-							"HTML5"
-						]
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin",
 			"Descriptor": 
 			{
@@ -580,60 +551,6 @@
 							"Win32",
 							"Win64",
 							"HTML5"
-						]
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 2,
-				"VersionName": "2.0",
-				"FriendlyName": "AVF Media Player",
-				"Description": "Implements a media player using Apple AV Foundation.",
-				"Category": "Media Players",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "https://forums.unrealengine.com/showthread.php?46879-Media-Framework-Documentation-for-4-5-Preview",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "AvfMedia",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "PreLoadingScreen",
-						"WhitelistPlatforms": [
-							"IOS",
-							"Mac",
-							"TVOS"
-						]
-					},
-					{
-						"Name": "AvfMediaEditor",
-						"Type": "Editor",
-						"LoadingPhase": "PostEngineInit"
-					},
-					{
-						"Name": "AvfMediaFactory",
-						"Type": "Editor",
-						"LoadingPhase": "PostEngineInit"
-					},
-					{
-						"Name": "AvfMediaFactory",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "PostEngineInit",
-						"WhitelistPlatforms": [
-							"IOS",
-							"Linux",
-							"Mac",
-							"TVOS",
-							"Win32",
-							"Win64"
 						]
 					}
 				]
@@ -752,131 +669,6 @@
 						"Enabled": true,
 						"WhitelistTargets": [
 							"Editor"
-						]
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 2,
-				"VersionName": "2.0",
-				"FriendlyName": "WMF Media Player",
-				"Description": "Implements a media player using the Windows Media Foundation framework.",
-				"Category": "Media Players",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "https://forums.unrealengine.com/showthread.php?46879-Media-Framework-Documentation-for-4-5-Preview",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "WmfMedia",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit",
-						"WhitelistPlatforms": [
-							"Win32",
-							"Win64"
-						]
-					},
-					{
-						"Name": "WmfMediaEditor",
-						"Type": "Editor",
-						"LoadingPhase": "PostEngineInit"
-					},
-					{
-						"Name": "WmfMediaFactory",
-						"Type": "Editor",
-						"LoadingPhase": "PostEngineInit"
-					},
-					{
-						"Name": "WmfMediaFactory",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "PostEngineInit",
-						"WhitelistPlatforms": [
-							"Mac",
-							"Linux",
-							"Win32",
-							"Win64"
-						]
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "TCP Messaging",
-				"Description": "Adds a TCP connection based transport layer to the messaging sub-system for sending and receiving messages between networked computers and devices.",
-				"Category": "Messaging",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"SupportedPrograms": [
-					"UnrealFrontend"
-				],
-				"Modules": [
-					{
-						"Name": "TcpMessaging",
-						"Type": "Runtime",
-						"LoadingPhase": "PreDefault",
-						"BlacklistPlatforms": [
-							"HTML5"
-						],
-						"WhitelistPrograms": [
-							"UnrealFrontend"
-						]
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "UDP Messaging",
-				"Description": "Adds a UDP based transport and tunneling layer to the messaging sub-system for sending and receiving messages between networked computers and devices.",
-				"Category": "Messaging",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"SupportedPrograms": [
-					"UnrealFrontend",
-					"UnrealMultiUserServer",
-					"UnrealLightmass"
-				],
-				"Modules": [
-					{
-						"Name": "UdpMessaging",
-						"Type": "RuntimeAndProgram",
-						"LoadingPhase": "PreDefault",
-						"BlacklistPlatforms": [
-							"HTML5"
-						],
-						"WhitelistPrograms": [
-							"UnrealFrontend",
-							"UnrealMultiUserServer",
-							"UnrealLightmass"
 						]
 					}
 				]
@@ -1094,38 +886,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Portal/LauncherChunkInstaller/LauncherChunkInstaller.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Launcher Chunk Installer",
-				"Description": "Chunk installer module that hooks into launcher",
-				"Category": "Launcher",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "LauncherChunkInstaller",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32",
-							"Linux",
-							"Mac"
-						]
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Runtime/AndroidPermission/AndroidPermission.uplugin",
 			"Descriptor": 
 			{
@@ -1234,35 +994,6 @@
 						"Name": "CableComponent",
 						"Type": "Runtime",
 						"LoadingPhase": "Default"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Custom Mesh Component",
-				"Description": "A new renderable Component class that allows you to specify custom geometry via C++ or Blueprint.",
-				"Category": "Rendering",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "CustomMeshComponent",
-						"Type": "Runtime",
-						"LoadingPhase": "Default",
-						"BlacklistPlatforms": [
-							"HTML5"
-						]
 					}
 				]
 			}
@@ -1576,52 +1307,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/WebMMoviePlayer/WebMMoviePlayer.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Movie Player for WebM files",
-				"Description": "Movie Player for WebM files",
-				"Category": "Movie Players",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "WebMMoviePlayer",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "PreLoadingScreen",
-						"BlacklistPlatforms": [
-							"Win32",
-							"XboxOne",
-							"PS4",
-							"IOS",
-							"Android",
-							"HTML5",
-							"TVOS",
-							"Switch",
-							"Lumin"
-						],
-						"BlacklistTargets": [
-							"Server"
-						]
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "WebMMedia",
-						"Enabled": true
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Media/WebMMedia/WebMMedia.uplugin",
 			"Descriptor": 
 			{
@@ -1687,36 +1372,6 @@
 						],
 						"BlacklistTargets": [
 							"Server"
-						]
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Windows Movie Player",
-				"Description": "Windows Specific Movie Player using Media Foundation",
-				"Category": "Movie Players",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "WindowsMoviePlayer",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "PreLoadingScreen",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32"
 						]
 					}
 				]
