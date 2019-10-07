@@ -1,4 +1,6 @@
-# Gardening
+![gameHeader](https://img.itch.zone/aW1nLzI1NTUyMzAucG5n/original/gE0lnd.png)
+
+# Garden Circuit
 LD 45 entry "Start with Nothing" compo
 https://ldjam.com/events/ludum-dare/45/garden-circuit
 
