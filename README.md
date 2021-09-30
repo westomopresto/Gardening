@@ -11,5 +11,6 @@ What you need: Unreal4 version 4.22
 No third party plugins used!!!
 
 ## Copyright
-You may use the code in this project for learning purposes.
-You may not profit using this code or project assets without permission from westonmitchell@live.com
+You may use the code in this project for learning purposes or demoing purposes!
+(commerical demoing is allowed)
+You are not permitted create a commercial game from this code or assets without persmission from westonmitchell@live.com
